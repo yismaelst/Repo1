@@ -1,0 +1,48 @@
+html{
+	padding:10px 50px 10px 50px;
+}
+
+div{
+	display:inline;
+}
+
+ul{
+	display:inline;
+	list-style-type:none;
+	width:60px;
+	margin:0;
+	padding:0;
+}
+
+li{
+	display:inline;
+	margin-right:5px;
+}
+
+header .center{
+	position:relative;
+	float:right;
+}
+
+header .center img{
+	margin:0 auto;
+	padding-right: 400px;
+}
+
+header .left h4{
+	text-align:left;
+	padding:40px 10px 10px 10px;
+
+}
+
+.content .window {
+	display:inline-block;
+	background-color:#fff;
+	width:300px;
+	padding-left: 50px;
+	padding-bottom: 300px;
+}
+
+.content .window h1{
+	font-weight:bold;
+}

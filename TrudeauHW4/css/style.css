@@ -1,0 +1,22 @@
+*,h1{
+	text-align:center;
+	font-size:100px;
+	text-transform:uppercase;
+	text-decoration: underline;
+	font-style:bold;
+	color:black;
+	background-color:#ffcdbb;
+	font-family:arial,garamond, helvetica;
+	font-weight:bold;
+	line-height: 100px;
+	letter-spacing: 5px;
+	
+}
+
+
+
+p{
+	font-family:arial;
+	line-height: 20px;
+}
+

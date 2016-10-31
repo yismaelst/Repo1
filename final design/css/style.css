@@ -1,0 +1,90 @@
+html{
+	background:url(images/woodbackground.jpg);
+	height:100%;
+	width:100%;
+	background-size: cover;
+}
+}
+
+h1{
+	font-family: Serif;
+	text-decoration: underline;
+	text-transform:uppercase;
+	text-decoration-color: #000000;
+}
+
+
+.logo{
+	display:inline;
+}
+
+.logo img{
+	float:center;
+	margin:auto;
+}
+
+.featured{
+
+}
+
+.wood{
+	position: fixed; 
+	top: -50%; 
+	left: -50%; 
+	width: 200%; 
+	height: 200%;
+}
+
+.wood img{
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	margin: auto; 
+	min-width: 50%;
+	min-height: 50%;
+}
+
+.upcoming{
+	display:block;
+	float:left;
+	padding:0px 0px 0px 77px;
+
+}
+
+.container{
+
+
+.events{
+	display:block;
+	float:left;
+	padding:0px 0px 0px 100px;
+}
+
+header .menu ul{
+	background-color:#dbad7c;
+	display:inline;
+	list-style-type:none;
+	width:100px;
+	padding:0;
+	height:16px;
+    font-family:Serif;
+    font-size:28px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-left:450px;
+}
+
+li{
+	display:inline;
+	text-decoration-color:#8a2024;
+	width:50px;
+}
+
+a:link{
+	display:inline;
+	text-decoration:none;
+	color:#8a2024;
+}
+
