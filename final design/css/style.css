@@ -1,9 +1,8 @@
 html{
-	background:url(images/woodbackground.jpg);
+	background:url(../images/woodbackground.jpg);
 	height:100%;
 	width:100%;
 	background-size: cover;
-}
 }
 
 h1{
@@ -13,7 +12,6 @@ h1{
 	text-decoration-color: #000000;
 }
 
-
 .logo{
 	display:inline;
 }
@@ -21,70 +19,100 @@ h1{
 .logo img{
 	float:center;
 	margin:auto;
+	height:100%;
+	width:100%;
 }
 
 .featured{
 
 }
 
-.wood{
-	position: fixed; 
-	top: -50%; 
-	left: -50%; 
-	width: 200%; 
-	height: 200%;
+.content1{
+
 }
 
-.wood img{
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	right: 0; 
-	bottom: 0; 
-	margin: auto; 
-	min-width: 50%;
-	min-height: 50%;
+.content2{
+
+}
+
+.content2 p{
+	font-family:sans-serif;
+	font-size:12px;
+
 }
 
 .upcoming{
-	display:block;
+	background-color:rgba(219,173,124,0.8);
+	display:inline;
 	float:left;
-	padding:0px 0px 0px 77px;
-
+	margin-right:550px;
+	padding:0px 77px 0px 77px;
 }
 
-.container{
+.events .container{
+	background:url(../images/corkboard.jpg);
+	background-repeat: repeat-y;
+	height:100%;
+	width:100%;
+	padding:0;
+	border: 2px solid;
+    border-radius: 5px;
+}
 
 
 .events{
-	display:block;
+
+	display:inline;
 	float:left;
 	padding:0px 0px 0px 100px;
 }
 
+
+.events img{
+	padding-left: 20px;
+	height:50%;
+	width:50%;
+}
+
+
+.events h1{
+	text-decoration: underline;
+}
+
+
+header .menu{	
+	background-color:rgba(219,173,124,0.8);
+	background-size:cover;
+}
+
 header .menu ul{
-	background-color:#dbad7c;
+	position: middle;
 	display:inline;
 	list-style-type:none;
 	width:100px;
-	padding:0;
-	height:16px;
+	padding:200px;
+	height:20px;
     font-family:Serif;
     font-size:28px;
     font-weight:bold;
     text-transform:uppercase;
-    margin-left:450px;
 }
 
 li{
+	position:middle;
 	display:inline;
 	text-decoration-color:#8a2024;
 	width:50px;
 }
 
 a:link{
+	position:middle;
 	display:inline;
 	text-decoration:none;
 	color:#8a2024;
+}
+
+footer h3{
+
 }
 
