@@ -6,28 +6,63 @@ html{
 }
 
 h1{
-	font-family: Serif;
+	font-family: sans-serif;
 	text-decoration: underline;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	text-decoration-color: #000000;
+}
+
+body{
+	margin: auto 0;
+	display:inline;
 }
 
 .logo{
 	display:inline;
+	padding-bottom: 10px;
 }
 
 .logo img{
 	float:center;
-	margin:auto;
+	margin:auto 0;
 	height:100%;
 	width:100%;
 }
 
-.featured{
+.left{
+	float:left;
+	margin:auto 0;
+	width :706px;
+	padding-left:50px;
+}
+
+.right{
+	float:right;
+	margin:auto 0;
+	width:;
+	padding-right:60px;
+}
+
+.left .featured{
+	width:706px;
 
 }
 
-.content1{
+.filter{
+	background-color:rgba(219,173,124,0.8);
+	float:left;
+	margin-left: 40px;
+}
+
+.video{
+	float:right;
+	margin:auto 0;
+	width:;
+	padding-right:400px;
+}
+
+.content img{
+	padding:60px;
 
 }
 
@@ -43,27 +78,38 @@ h1{
 
 .upcoming{
 	background-color:rgba(219,173,124,0.8);
-	display:inline;
+	display:block;
 	float:left;
-	margin-right:550px;
-	padding:0px 77px 0px 77px;
+	width:706px;
+	padding:0px 10px 0px 10px;
+}
+
+#media{
+	background-color:rgba(219,173,124,0.8);
+}
+
+
+.container{
+
 }
 
 .events .container{
 	background:url(../images/corkboard.jpg);
 	background-repeat: repeat-y;
+	background-repeat: repeat-x; 
 	height:100%;
 	width:100%;
 	padding:0;
-	border: 2px solid;
-    border-radius: 5px;
+	border: 10px solid;
+    border-radius:8px;
 }
 
+.
 
 .events{
 
 	display:inline;
-	float:left;
+	float:right;
 	padding:0px 0px 0px 100px;
 }
 
@@ -92,7 +138,7 @@ header .menu ul{
 	width:100px;
 	padding:200px;
 	height:20px;
-    font-family:Serif;
+    font-family:sans-serif;
     font-size:28px;
     font-weight:bold;
     text-transform:uppercase;
@@ -103,6 +149,7 @@ li{
 	display:inline;
 	text-decoration-color:#8a2024;
 	width:50px;
+	padding:10px;
 }
 
 a:link{
@@ -112,7 +159,80 @@ a:link{
 	color:#8a2024;
 }
 
+a:visited{
+	color:#8a2024;
+}
+
 footer h3{
 
 }
+
+.title{
+	background-color:rgba(219,173,124,0.8);
+	font-family: sans-serif;
+}
+
+
+
+div.img {
+    margin:5px;
+    border: 1px solid #000;
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+div.img:hover {
+    border: 2px solid #fff;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
